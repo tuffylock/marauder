@@ -1,0 +1,16 @@
+{
+  "name": "marauder",
+  "version": "1.0.0",
+  "description": "Slack bot to aggregate Mode coworker schedule/location",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Feather Osborn <tuffylock@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^1.0.1",
+    "dotenv": "^8.2.0"
+  }
+}
